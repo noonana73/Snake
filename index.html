@@ -133,6 +133,7 @@ void snakeMove(){
   snakesY[0] = snakeY;
    
 }
+
   
 void keyPressed() {
   if(keyCode == UP) {  if(snakesY[1] != snakesY[0]-10){moveY = -10; moveX = 0;}}
@@ -141,3 +142,6 @@ void keyPressed() {
   if(keyCode == RIGHT) { if(snakesX[1] != snakesX[0]+10){moveX = 10; moveY = 0;}}
   if(keyCode == 'R') {reset();}
 }
+
+</script>
+<canvas id="mycanvas"></canvas>
